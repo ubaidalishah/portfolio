@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+     background: #1c1a1a;
+     font-family: 'Prompt', sans-serif;
+}
+
+
+.first{
+    display:flex;
+
+}
+
+
+@media screen and (min-width:768px) {
+    
+    .first{
+        margin-left: 2.5rem;
+        margin-top: 1.5rem;
+
+    }
+}
+
+
+
+.first li a:hover{
+    color:rgb(106, 6, 212);
+    transition:all 0.5s ease;
+    font-size: 15px;
+    }
+
+
+ ul li{
+    list-style: none;
+    display: inline;
+}
+
+
+.links{
+text-decoration: none;
+margin-left: 1rem;
+color: antiquewhite;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media screen and (min-width:768px) {
+    
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:space-between;
+
+
+    }
+}
+
+
+
+@media screen and (min-width:950px) {
+    
+    .pic img{
+        width: fit-content;
+        height: 93.8vh;
+        animation-name: ubaid2;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+    
+    }
+}
+
+
+/* @keyframes ubaid2{
+    from{
+   
+    height: 50vh;
+    }
+    to{
+
+height: 93.8vh;
+    }
+} */
+
+@keyframes ubaid2{
+from{
+    margin-right: 30rem;
+}
+to{
+    margin-right: 0rem;
+}
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:2.5rem;
+    color: antiquewhite;
+
+
+}
+
+
+@media screen and (min-width:768px) {
+    
+    .left{
+        justify-content: center;
+        align-items:unset;
+        animation-name: ubaid1;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+
+    }
+}
+
+
+@keyframes ubaid1{
+    from{
+   
+    height: 350px;
+    }
+    to{
+
+height: 705px;
+    }
+}
+
+
+.name{
+    margin-top: 1rem;
+    font-size: 30px;
+    color: rgb(106, 6, 212);        
+}
+
+
+.para{
+    margin-top: 0.5rem;
+}
+
+
+.btn{
+    margin-top: 1rem;
+}
+
+
+.btnn{
+    padding:5px 10px;
+    background-color: rgb(106, 6, 212) !important;
+    color: antiquewhite;
+    border-radius: 5px !important;
+    font-weight: bolder;
+}
+
+
+.btnn:hover{
+    background: transparent !important;
+    color:rgb(106, 6, 212); 
+    transition: all 0.5s ease;
+    cursor: pointer;
+    padding:3px 8px;
+    border: 2px solid black;
+
+    }
+
+
+    .touch{
+       
+        color: antiquewhite;
+        border: none;
+        background-color: rgb(195 189 255 / 0%);
+    }
+
+    .quiries{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        /* width: 100vw;
+        height: 100vh; */
+        margin-top: 12rem;
+        
+    }
+    .form1{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    justify-content: center;
+    height: 325px;
+    width: 340px;
+    background-color: rgb(195 189 255 / 12%);
+    border-radius: 8px;
+    animation-name: ubaid3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    }
+    @keyframes ubaid3{
+        from{
+            height: 0px ;
+            width: 0px;
+
+        }
+        to{
+            height: 325px;
+            width: 340px;
+        }
+    }
+    .form1 input{
+      
+    color: antiquewhite;
+        width: 225px;
+        margin-top: 1rem;
+        background-color: rgb(195 189 255 / 12%);
+    border-radius: 2px;
+    border: none;
+    height: 25px;
+
+    }
+    .form1 textarea{
+        
+    color: antiquewhite;
+   background-color: rgb(195 189 255 / 12%);
+    margin-top: 11px;
+    border-radius: 5px;
+
+
+
+
+    }
+    ::placeholder{
+    color: antiquewhite;
+    padding-left: 10px;
+
+    }
+    .icons{
+        display: flex;
+        height: 36px;
+        width: 177px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .icons .instagram{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+
+    }
+    .icons .linkedin{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    .icons .facebook{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    .icons .git{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .instagram:hover{
+        width: 33px;
+        height: 33px;
+    }
+    .linkedin:hover{
+        width: 33px;
+        height: 33px;
+    }
+    .facebook:hover{
+        width: 33px;
+        height: 33px;
+    }
+    .git:hover{
+        width: 33px;
+        height: 33px;
+    }
+    .properties{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    @media screen and (min-width:768px) {
+        .properties{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .fst{
+            margin-left: 2rem;
+            margin-top: 2rem;
+        }
+    }
+    .fastt{
+    width:100px;
+    height: 100px;
+    }
+    .responsivee{
+        width:100px;
+        height: 100px;
+    
+    }
+    .intuitivee{
+        width:100px;
+        height: 100px;
+    }
+    .fst{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        color: antiquewhite;
+        letter-spacing: 1px;
+
+
+    }
+    .resp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        color: antiquewhite;
+        margin-top: 2rem;
+        letter-spacing: 1px;
+
+    }
+    .intu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        color: antiquewhite;
+        margin-top: 2rem;
+        letter-spacing: 1px;
+
+
+    }
+   @media screen and (min-width:768px){
+    .main2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+   }
+    .picab{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+      
+        margin-top: 2rem;
+
+    }
+    #identity{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #description
+    {
+        padding-left: 1rem;
+    }
+   #circle{
+    background-color: #44444721;
+    border-radius: 15px;
+   }
+
+    .skills .bar div{
+        height: 20px;
+    
+   
+    font-weight:400; 
+    letter-spacing: 1px;
+    text-transform:uppercase;
+    border-radius: 5px;
+    animation-name: ubaid4;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.bar{
+   max-width: 340px;
+    background-color: #554f5b72;
+    margin-top: 38px;
+    border-radius: 5px;
+   
+}
+.skills{
+    margin: 1rem;
+}
+#css{
+    width: 85%;
+    background-color: #ff0066;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#html{
+    width: 340px;
+    background-color:#80ff00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#javascript{
+    width: 65% ;
+    background-color: #cd863f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#tailwind{
+    width: 80%;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bootstrap{
+    width: 75%;
+    background-color: magenta;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#photoshop{
+    width: 60%;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#ui{
+    width: 70%;
+    background-color: cyan; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sketch{
+    width: 75%;
+    background-color:coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills .bar div span{
+    background-color: transparent;
+}
+.picdes a{
+    color:rgb(19, 234, 119);
+    margin-top: 5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#guy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: #44444721;
+    border-radius: 12px;
+}
+#guy span{
+    background-color: #44444721;
+    margin:auto;
+    color: antiquewhite;
+    border-radius: 12px;
+    letter-spacing: 1px;
+}
+h2{
+    color: antiquewhite;
+    letter-spacing: 1px;
+}
+@media screen and (min-width:768px)
+{
+    @keyframes ubaid4{
+        from{
+            width:0px;
+            height:0px;
+        }
+        to{
+            width:340px;
+            height:20px
+        }
+
+    }
+}
+.picdes{
+    animation-name: ubaid5;
+    animation-duration: 2s;
+    animation-iteration-count:1 ;
+}
+@media screen and (min-width:768px)
+{
+    @keyframes ubaid5{
+        from{
+            margin-left: 40rem;
+        }
+        to{
+         margin-left: 0rem;
+        }
+
+    }
+}

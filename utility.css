@@ -1,0 +1,13 @@
+.left-to-right{
+    animation-name: ubaid2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    @keyframes ubaid2{
+        from{
+            margin-right: 30rem;
+        }
+        to{
+            margin-right: 0rem;
+        }
+        }
+}
